@@ -9,7 +9,7 @@
 // DVTFoundation
 #import "DVTFilePath.h"
 #import "DVTSourceCodeLanguage.h"
-#import "DVTSourceCodeLanguage+Lin.h"
+#import "DVTSourceCodeLanguage+URBNLin.h"
 
 // DVTKit
 #import "DVTCompletingTextView.h"

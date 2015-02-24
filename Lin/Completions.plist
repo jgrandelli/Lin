@@ -4,53 +4,14 @@
 <array>
 	<dict>
 		<key>LINFunctionName</key>
-		<string>NSLocalizedString</string>
+		<string>URBNStr</string>
 		<key>LINCompletionPatterns</key>
 		<array>
 			<dict>
 				<key>Objective-C</key>
-				<string>NSLocalizedString\s*\(\s*\w*</string>
+				<string>URBNStr\s*\(\s*\w*</string>
 				<key>Swift</key>
-				<string>NSLocalizedString\s*\(\s*\w*</string>
-			</dict>
-		</array>
-	</dict>
-	<dict>
-		<key>LINFunctionName</key>
-		<string>NSLocalizedStringFromTable</string>
-		<key>LINCompletionPatterns</key>
-		<array>
-			<dict>
-				<key>Objective-C</key>
-				<string>NSLocalizedStringFromTable\s*\(\s*\w*</string>
-				<key>Swift</key>
-				<string>NSLocalizedStringFromTable\s*\(\s*\w*</string>
-			</dict>
-		</array>
-	</dict>
-	<dict>
-		<key>LINFunctionName</key>
-		<string>NSLocalizedStringFromTableInBundle</string>
-		<key>LINCompletionPatterns</key>
-		<array>
-			<dict>
-				<key>Objective-C</key>
-				<string>NSLocalizedStringFromTableInBundle\s*\(\s*\w*</string>
-				<key>Swift</key>
-				<string>NSLocalizedStringFromTableInBundle\s*\(\s*\w*</string>
-			</dict>
-		</array>
-	</dict>
-	<dict>
-		<key>LINFunctionName</key>
-		<string>NSLocalizedStringWithDefaultValue</string>
-		<key>LINCompletionPatterns</key>
-		<array>
-			<dict>
-				<key>Objective-C</key>
-				<string>NSLocalizedStringWithDefaultValue\s*\(\s*\w*</string>
-				<key>Swift</key>
-				<string>NSLocalizedStringWithDefaultValue\s*\(\s*\w*</string>
+				<string>URBNStr\s*\(\s*\w*</string>
 			</dict>
 		</array>
 	</dict>

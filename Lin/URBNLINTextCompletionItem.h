@@ -8,15 +8,15 @@
 
 #import "IDEIndexCompletionItem.h"
 
-typedef NS_ENUM(NSUInteger, LINSourceCodeLanguage) {
-    LINSourceCodeLanguageObjectiveC,
-    LINSourceCodeLanguageSwift
+typedef NS_ENUM(NSUInteger, URBNLINSourceCodeLanguage) {
+    URBNLINSourceCodeLanguageObjectiveC,
+    URBNLINSourceCodeLanguageSwift
 };
 
-@interface LINTextCompletionItem : IDEIndexCompletionItem
+@interface URBNLINTextCompletionItem : IDEIndexCompletionItem
 
 @property (nonatomic, copy, readonly) NSArray *localizations;
-@property (nonatomic, assign) LINSourceCodeLanguage sourceCodeLanguage;
+@property (nonatomic, assign) URBNLINSourceCodeLanguage sourceCodeLanguage;
 
 - (instancetype)initWithLocalizations:(NSArray *)localizations;
 

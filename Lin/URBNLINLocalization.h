@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LINLocalization : NSObject
+@interface URBNLINLocalization : NSObject
 
 @property (nonatomic, copy, readonly) NSString *key;
 @property (nonatomic, copy, readonly) NSString *value;

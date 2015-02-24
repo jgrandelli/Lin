@@ -8,72 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		AA1313A31A82884B0080D488 /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1313A21A82884B0080D488 /* MethodSwizzle.m */; };
-		AA1313AA1A8289360080D488 /* DVTSourceTextView+Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1313A91A8289360080D488 /* DVTSourceTextView+Lin.m */; };
+		AA1313AA1A8289360080D488 /* DVTSourceTextView+URBNLin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1313A91A8289360080D488 /* DVTSourceTextView+URBNLin.m */; };
 		AA1313AD1A8289D50080D488 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1313AB1A8289D50080D488 /* IDEFoundation.framework */; };
 		AA1313AE1A8289D50080D488 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1313AC1A8289D50080D488 /* IDEKit.framework */; };
 		AA1313B11A8289E00080D488 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1313AF1A8289E00080D488 /* DVTFoundation.framework */; };
 		AA1313B21A8289E00080D488 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1313B01A8289E00080D488 /* DVTKit.framework */; };
 		AA1313B41A8289E80080D488 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1313B31A8289E80080D488 /* Cocoa.framework */; };
-		AA1DB1181A828CD500856B10 /* DVTTextCompletionController+Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DB1171A828CD500856B10 /* DVTTextCompletionController+Lin.m */; };
-		AA1DB1221A828FBF00856B10 /* LINTextCompletionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DB1211A828FBF00856B10 /* LINTextCompletionItem.m */; };
-		AA49B1961A8295F6003EA1A3 /* IDEWorkspace+Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49B1951A8295F6003EA1A3 /* IDEWorkspace+Lin.m */; };
+		AA1DB1181A828CD500856B10 /* DVTTextCompletionController+URBNLin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DB1171A828CD500856B10 /* DVTTextCompletionController+URBNLin.m */; };
+		AA1DB1221A828FBF00856B10 /* URBNLINTextCompletionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DB1211A828FBF00856B10 /* URBNLINTextCompletionItem.m */; };
+		AA49B1961A8295F6003EA1A3 /* IDEWorkspace+URBNLin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49B1951A8295F6003EA1A3 /* IDEWorkspace+URBNLin.m */; };
 		AA49B19C1A829B02003EA1A3 /* Completions.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA49B19B1A829B02003EA1A3 /* Completions.plist */; };
-		AA4A0AA81A874D20005109B0 /* DVTSourceCodeLanguage+Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A0AA71A874D20005109B0 /* DVTSourceCodeLanguage+Lin.m */; };
-		AA80F3471A82805B007687A3 /* Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA80F3461A82805B007687A3 /* Lin.m */; };
-		AA89B4FD1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89B4FC1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.m */; };
+		AA4A0AA81A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A0AA71A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.m */; };
+		AA80F3471A82805B007687A3 /* URBNLin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA80F3461A82805B007687A3 /* URBNLin.m */; };
+		AA89B4FD1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89B4FC1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.m */; };
 		AAB604931A83933F00C0E59B /* Localizations.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB604921A83933F00C0E59B /* Localizations.strings */; };
 		AAB604951A8393B800C0E59B /* LINLocalizationParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604941A8393B800C0E59B /* LINLocalizationParserTests.m */; };
-		AAB604981A8393F700C0E59B /* LINLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604971A8393F700C0E59B /* LINLocalization.m */; };
-		AAB6049D1A839A0C00C0E59B /* LINLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604971A8393F700C0E59B /* LINLocalization.m */; };
-		AAB604A51A83C3B900C0E59B /* LINLocalizationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */; };
-		AAB604AB1A83CBD400C0E59B /* LINLocalizationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */; };
+		AAB604981A8393F700C0E59B /* URBNLINLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604971A8393F700C0E59B /* URBNLINLocalization.m */; };
+		AAB6049D1A839A0C00C0E59B /* URBNLINLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604971A8393F700C0E59B /* URBNLINLocalization.m */; };
+		AAB604A51A83C3B900C0E59B /* URBNLINLocalizationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604A41A83C3B900C0E59B /* URBNLINLocalizationParser.m */; };
+		AAB604AB1A83CBD400C0E59B /* URBNLINLocalizationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604A41A83C3B900C0E59B /* URBNLINLocalizationParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA023C121A82A2E700D4AE5F /* LinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA023C121A82A2E700D4AE5F /* URBNLinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URBNLinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA023C151A82A2E700D4AE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1313A11A82884B0080D488 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
 		AA1313A21A82884B0080D488 /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
 		AA1313A51A82890D0080D488 /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCompletingTextView.h; sourceTree = "<group>"; };
-		AA1313A81A8289360080D488 /* DVTSourceTextView+Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceTextView+Lin.h"; sourceTree = "<group>"; };
-		AA1313A91A8289360080D488 /* DVTSourceTextView+Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceTextView+Lin.m"; sourceTree = "<group>"; };
+		AA1313A81A8289360080D488 /* DVTSourceTextView+URBNLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceTextView+URBNLin.h"; sourceTree = "<group>"; };
+		AA1313A91A8289360080D488 /* DVTSourceTextView+URBNLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceTextView+URBNLin.m"; sourceTree = "<group>"; };
 		AA1313AB1A8289D50080D488 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = /Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<absolute>"; };
 		AA1313AC1A8289D50080D488 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<absolute>"; };
 		AA1313AF1A8289E00080D488 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<absolute>"; };
 		AA1313B01A8289E00080D488 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<absolute>"; };
 		AA1313B31A8289E80080D488 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AA1DB1111A828C9800856B10 /* DVTTextCompletionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionController.h; sourceTree = "<group>"; };
-		AA1DB1161A828CD500856B10 /* DVTTextCompletionController+Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionController+Lin.h"; sourceTree = "<group>"; };
-		AA1DB1171A828CD500856B10 /* DVTTextCompletionController+Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionController+Lin.m"; sourceTree = "<group>"; };
-		AA1DB1201A828FBF00856B10 /* LINTextCompletionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINTextCompletionItem.h; sourceTree = "<group>"; };
-		AA1DB1211A828FBF00856B10 /* LINTextCompletionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINTextCompletionItem.m; sourceTree = "<group>"; };
+		AA1DB1161A828CD500856B10 /* DVTTextCompletionController+URBNLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionController+URBNLin.h"; sourceTree = "<group>"; };
+		AA1DB1171A828CD500856B10 /* DVTTextCompletionController+URBNLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionController+URBNLin.m"; sourceTree = "<group>"; };
+		AA1DB1201A828FBF00856B10 /* URBNLINTextCompletionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNLINTextCompletionItem.h; sourceTree = "<group>"; };
+		AA1DB1211A828FBF00856B10 /* URBNLINTextCompletionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNLINTextCompletionItem.m; sourceTree = "<group>"; };
 		AA49B1931A82959D003EA1A3 /* IDEWorkspace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWorkspace.h; sourceTree = "<group>"; };
-		AA49B1941A8295F6003EA1A3 /* IDEWorkspace+Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDEWorkspace+Lin.h"; sourceTree = "<group>"; };
-		AA49B1951A8295F6003EA1A3 /* IDEWorkspace+Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDEWorkspace+Lin.m"; sourceTree = "<group>"; };
+		AA49B1941A8295F6003EA1A3 /* IDEWorkspace+URBNLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDEWorkspace+URBNLin.h"; sourceTree = "<group>"; };
+		AA49B1951A8295F6003EA1A3 /* IDEWorkspace+URBNLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDEWorkspace+URBNLin.m"; sourceTree = "<group>"; };
 		AA49B1971A8296AD003EA1A3 /* IDEIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEIndex.h; sourceTree = "<group>"; };
 		AA49B19A1A829977003EA1A3 /* DVTFilePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFilePath.h; sourceTree = "<group>"; };
 		AA49B19B1A829B02003EA1A3 /* Completions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Completions.plist; sourceTree = "<group>"; };
-		AA4A0AA61A874D20005109B0 /* DVTSourceCodeLanguage+Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceCodeLanguage+Lin.h"; sourceTree = "<group>"; };
-		AA4A0AA71A874D20005109B0 /* DVTSourceCodeLanguage+Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceCodeLanguage+Lin.m"; sourceTree = "<group>"; };
+		AA4A0AA61A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceCodeLanguage+URBNLin.h"; sourceTree = "<group>"; };
+		AA4A0AA71A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceCodeLanguage+URBNLin.m"; sourceTree = "<group>"; };
 		AA4A0AAF1A877250005109B0 /* IDELanguageSupportCore.ideplugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = IDELanguageSupportCore.ideplugin; path = ../../../../Applications/Xcode.app/Contents/PlugIns/IDELanguageSupportCore.ideplugin; sourceTree = "<group>"; };
 		AA4A0AB01A877250005109B0 /* IDELanguageSupportUI.ideplugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = IDELanguageSupportUI.ideplugin; path = ../../../../Applications/Xcode.app/Contents/PlugIns/IDELanguageSupportUI.ideplugin; sourceTree = "<group>"; };
 		AA69EE811A87B9ED00139C5D /* IDEIndexCompletionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEIndexCompletionItem.h; sourceTree = "<group>"; };
-		AA80F33B1A82804C007687A3 /* Lin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA80F33B1A82804C007687A3 /* URBNLin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URBNLin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA80F33F1A82804C007687A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA80F3451A82805B007687A3 /* Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lin.h; sourceTree = "<group>"; };
-		AA80F3461A82805B007687A3 /* Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lin.m; sourceTree = "<group>"; };
+		AA80F3451A82805B007687A3 /* URBNLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNLin.h; sourceTree = "<group>"; };
+		AA80F3461A82805B007687A3 /* URBNLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNLin.m; sourceTree = "<group>"; };
 		AA89B4F71A872D0200E8CCD6 /* DVTTextCompletionDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionDataSource.h; sourceTree = "<group>"; };
 		AA89B4F81A872D2000E8CCD6 /* DVTSourceCodeLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceCodeLanguage.h; sourceTree = "<group>"; };
-		AA89B4FB1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionDataSource+Lin.h"; sourceTree = "<group>"; };
-		AA89B4FC1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionDataSource+Lin.m"; sourceTree = "<group>"; };
+		AA89B4FB1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionDataSource+URBNLin.h"; sourceTree = "<group>"; };
+		AA89B4FC1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionDataSource+URBNLin.m"; sourceTree = "<group>"; };
 		AAB604921A83933F00C0E59B /* Localizations.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizations.strings; sourceTree = "<group>"; };
 		AAB604941A8393B800C0E59B /* LINLocalizationParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINLocalizationParserTests.m; sourceTree = "<group>"; };
-		AAB604961A8393F700C0E59B /* LINLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINLocalization.h; sourceTree = "<group>"; };
-		AAB604971A8393F700C0E59B /* LINLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINLocalization.m; sourceTree = "<group>"; };
+		AAB604961A8393F700C0E59B /* URBNLINLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNLINLocalization.h; sourceTree = "<group>"; };
+		AAB604971A8393F700C0E59B /* URBNLINLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNLINLocalization.m; sourceTree = "<group>"; };
 		AAB6049F1A83A18400C0E59B /* IDEIndexCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEIndexCollection.h; sourceTree = "<group>"; };
 		AAB604A11A83A72600C0E59B /* DVTSourceTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceTextView.h; sourceTree = "<group>"; };
-		AAB604A31A83C3B900C0E59B /* LINLocalizationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINLocalizationParser.h; sourceTree = "<group>"; };
-		AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINLocalizationParser.m; sourceTree = "<group>"; };
+		AAB604A31A83C3B900C0E59B /* URBNLINLocalizationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNLINLocalizationParser.h; sourceTree = "<group>"; };
+		AAB604A41A83C3B900C0E59B /* URBNLINLocalizationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNLINLocalizationParser.m; sourceTree = "<group>"; };
 		AAB604AC1A83D3B900C0E59B /* DVTTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextStorage.h; sourceTree = "<group>"; };
 		AAC2027C1A868C730010FDF7 /* Xcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,16 +138,16 @@
 			children = (
 				AA1313A11A82884B0080D488 /* MethodSwizzle.h */,
 				AA1313A21A82884B0080D488 /* MethodSwizzle.m */,
-				AA4A0AA61A874D20005109B0 /* DVTSourceCodeLanguage+Lin.h */,
-				AA4A0AA71A874D20005109B0 /* DVTSourceCodeLanguage+Lin.m */,
-				AA1313A81A8289360080D488 /* DVTSourceTextView+Lin.h */,
-				AA1313A91A8289360080D488 /* DVTSourceTextView+Lin.m */,
-				AA1DB1161A828CD500856B10 /* DVTTextCompletionController+Lin.h */,
-				AA1DB1171A828CD500856B10 /* DVTTextCompletionController+Lin.m */,
-				AA89B4FB1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.h */,
-				AA89B4FC1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.m */,
-				AA49B1941A8295F6003EA1A3 /* IDEWorkspace+Lin.h */,
-				AA49B1951A8295F6003EA1A3 /* IDEWorkspace+Lin.m */,
+				AA4A0AA61A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.h */,
+				AA4A0AA71A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.m */,
+				AA1313A81A8289360080D488 /* DVTSourceTextView+URBNLin.h */,
+				AA1313A91A8289360080D488 /* DVTSourceTextView+URBNLin.m */,
+				AA1DB1161A828CD500856B10 /* DVTTextCompletionController+URBNLin.h */,
+				AA1DB1171A828CD500856B10 /* DVTTextCompletionController+URBNLin.m */,
+				AA89B4FB1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.h */,
+				AA89B4FC1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.m */,
+				AA49B1941A8295F6003EA1A3 /* IDEWorkspace+URBNLin.h */,
+				AA49B1951A8295F6003EA1A3 /* IDEWorkspace+URBNLin.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -176,8 +176,8 @@
 		AA80F33C1A82804C007687A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA80F33B1A82804C007687A3 /* Lin.xcplugin */,
-				AA023C121A82A2E700D4AE5F /* LinTests.xctest */,
+				AA80F33B1A82804C007687A3 /* URBNLin.xcplugin */,
+				AA023C121A82A2E700D4AE5F /* URBNLinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,8 +188,8 @@
 				AA1DB1151A828CC100856B10 /* Xcode */,
 				AA1DB1141A828CBA00856B10 /* Categories */,
 				AAB6049E1A839BC500C0E59B /* Models */,
-				AA80F3451A82805B007687A3 /* Lin.h */,
-				AA80F3461A82805B007687A3 /* Lin.m */,
+				AA80F3451A82805B007687A3 /* URBNLin.h */,
+				AA80F3461A82805B007687A3 /* URBNLin.m */,
 				AA80F33E1A82804C007687A3 /* Supporting Files */,
 			);
 			path = Lin;
@@ -207,12 +207,12 @@
 		AAB6049E1A839BC500C0E59B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AAB604A31A83C3B900C0E59B /* LINLocalizationParser.h */,
-				AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */,
-				AAB604961A8393F700C0E59B /* LINLocalization.h */,
-				AAB604971A8393F700C0E59B /* LINLocalization.m */,
-				AA1DB1201A828FBF00856B10 /* LINTextCompletionItem.h */,
-				AA1DB1211A828FBF00856B10 /* LINTextCompletionItem.m */,
+				AAB604A31A83C3B900C0E59B /* URBNLINLocalizationParser.h */,
+				AAB604A41A83C3B900C0E59B /* URBNLINLocalizationParser.m */,
+				AAB604961A8393F700C0E59B /* URBNLINLocalization.h */,
+				AAB604971A8393F700C0E59B /* URBNLINLocalization.m */,
+				AA1DB1201A828FBF00856B10 /* URBNLINTextCompletionItem.h */,
+				AA1DB1211A828FBF00856B10 /* URBNLINTextCompletionItem.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA023C111A82A2E700D4AE5F /* LinTests */ = {
+		AA023C111A82A2E700D4AE5F /* URBNLinTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA023C181A82A2E700D4AE5F /* Build configuration list for PBXNativeTarget "LinTests" */;
+			buildConfigurationList = AA023C181A82A2E700D4AE5F /* Build configuration list for PBXNativeTarget "URBNLinTests" */;
 			buildPhases = (
 				AA023C0E1A82A2E700D4AE5F /* Sources */,
 				AA023C0F1A82A2E700D4AE5F /* Frameworks */,
@@ -264,14 +264,14 @@
 			);
 			dependencies = (
 			);
-			name = LinTests;
+			name = URBNLinTests;
 			productName = LinTests;
-			productReference = AA023C121A82A2E700D4AE5F /* LinTests.xctest */;
+			productReference = AA023C121A82A2E700D4AE5F /* URBNLinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA80F33A1A82804C007687A3 /* Lin */ = {
+		AA80F33A1A82804C007687A3 /* URBNLin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA80F3421A82804C007687A3 /* Build configuration list for PBXNativeTarget "Lin" */;
+			buildConfigurationList = AA80F3421A82804C007687A3 /* Build configuration list for PBXNativeTarget "URBNLin" */;
 			buildPhases = (
 				AA80F3371A82804C007687A3 /* Sources */,
 				AA80F3381A82804C007687A3 /* Frameworks */,
@@ -281,9 +281,9 @@
 			);
 			dependencies = (
 			);
-			name = Lin;
+			name = URBNLin;
 			productName = Lin;
-			productReference = AA80F33B1A82804C007687A3 /* Lin.xcplugin */;
+			productReference = AA80F33B1A82804C007687A3 /* URBNLin.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA80F3361A82804C007687A3 /* Build configuration list for PBXProject "Lin" */;
+			buildConfigurationList = AA80F3361A82804C007687A3 /* Build configuration list for PBXProject "URBNLin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -315,8 +315,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA80F33A1A82804C007687A3 /* Lin */,
-				AA023C111A82A2E700D4AE5F /* LinTests */,
+				AA80F33A1A82804C007687A3 /* URBNLin */,
+				AA023C111A82A2E700D4AE5F /* URBNLinTests */,
 			);
 		};
 /* End PBXProject section */
@@ -345,9 +345,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB6049D1A839A0C00C0E59B /* LINLocalization.m in Sources */,
+				AAB6049D1A839A0C00C0E59B /* URBNLINLocalization.m in Sources */,
 				AAB604951A8393B800C0E59B /* LINLocalizationParserTests.m in Sources */,
-				AAB604AB1A83CBD400C0E59B /* LINLocalizationParser.m in Sources */,
+				AAB604AB1A83CBD400C0E59B /* URBNLINLocalizationParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,15 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB604981A8393F700C0E59B /* LINLocalization.m in Sources */,
-				AA89B4FD1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.m in Sources */,
-				AAB604A51A83C3B900C0E59B /* LINLocalizationParser.m in Sources */,
-				AA4A0AA81A874D20005109B0 /* DVTSourceCodeLanguage+Lin.m in Sources */,
-				AA49B1961A8295F6003EA1A3 /* IDEWorkspace+Lin.m in Sources */,
-				AA1DB1221A828FBF00856B10 /* LINTextCompletionItem.m in Sources */,
-				AA1313AA1A8289360080D488 /* DVTSourceTextView+Lin.m in Sources */,
-				AA1DB1181A828CD500856B10 /* DVTTextCompletionController+Lin.m in Sources */,
-				AA80F3471A82805B007687A3 /* Lin.m in Sources */,
+				AAB604981A8393F700C0E59B /* URBNLINLocalization.m in Sources */,
+				AA89B4FD1A872ED600E8CCD6 /* DVTTextCompletionDataSource+URBNLin.m in Sources */,
+				AAB604A51A83C3B900C0E59B /* URBNLINLocalizationParser.m in Sources */,
+				AA4A0AA81A874D20005109B0 /* DVTSourceCodeLanguage+URBNLin.m in Sources */,
+				AA49B1961A8295F6003EA1A3 /* IDEWorkspace+URBNLin.m in Sources */,
+				AA1DB1221A828FBF00856B10 /* URBNLINTextCompletionItem.m in Sources */,
+				AA1313AA1A8289360080D488 /* DVTSourceTextView+URBNLin.m in Sources */,
+				AA1DB1181A828CD500856B10 /* DVTTextCompletionController+URBNLin.m in Sources */,
+				AA80F3471A82805B007687A3 /* URBNLin.m in Sources */,
 				AA1313A31A82884B0080D488 /* MethodSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +385,7 @@
 				);
 				INFOPLIST_FILE = LinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = URBNLinTests;
 			};
 			name = Debug;
 		};
@@ -399,7 +399,7 @@
 				);
 				INFOPLIST_FILE = LinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = URBNLinTests;
 			};
 			name = Release;
 		};
@@ -490,7 +490,7 @@
 				);
 				INFOPLIST_FILE = Lin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = URBNLin;
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -509,7 +509,7 @@
 				);
 				INFOPLIST_FILE = Lin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = URBNLin;
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -518,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA023C181A82A2E700D4AE5F /* Build configuration list for PBXNativeTarget "LinTests" */ = {
+		AA023C181A82A2E700D4AE5F /* Build configuration list for PBXNativeTarget "URBNLinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA023C191A82A2E700D4AE5F /* Debug */,
@@ -527,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA80F3361A82804C007687A3 /* Build configuration list for PBXProject "Lin" */ = {
+		AA80F3361A82804C007687A3 /* Build configuration list for PBXProject "URBNLin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA80F3401A82804C007687A3 /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA80F3421A82804C007687A3 /* Build configuration list for PBXNativeTarget "Lin" */ = {
+		AA80F3421A82804C007687A3 /* Build configuration list for PBXNativeTarget "URBNLin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA80F3431A82804C007687A3 /* Debug */,

@@ -6,12 +6,12 @@
 //  Copyright (c) 2015年 Katsuma Tanaka. All rights reserved.
 //
 
-#import "LINLocalizationParser.h"
-#import "LINLocalization.h"
+#import "URBNLINLocalizationParser.h"
+#import "URBNLINLocalization.h"
 
-static NSString * const kRegularExpressionPattern = @"(\"(\\S+.*\\S+)\"|(\\S+.*\\S+))\\s*=\\s*\"(.*)\";$";
+static NSString * const kURBNLinRegularExpressionPattern = @"(\"(\\S+.*\\S+)\"|(\\S+.*\\S+))\\s*=\\s*\"(.*)\";$";
 
-@implementation LINLocalizationParser
+@implementation URBNLINLocalizationParser
 
 #pragma mark - Parsing Localizations
 
@@ -28,7 +28,7 @@ static NSString * const kRegularExpressionPattern = @"(\"(\\S+.*\\S+)\"|(\\S+.*\
     // Parse localizations
     NSMutableArray *localizations = [NSMutableArray array];
     
-    NSRegularExpression *regularExpression = [NSRegularExpression regularExpressionWithPattern:kRegularExpressionPattern
+    NSRegularExpression *regularExpression = [NSRegularExpression regularExpressionWithPattern:kURBNLinRegularExpressionPattern
                                                                                        options:0
                                                                                          error:nil];
     
@@ -57,7 +57,7 @@ static NSString * const kRegularExpressionPattern = @"(\"(\\S+.*\\S+)\"|(\\S+.*\
         
         // Create localization
         if (key && value) {
-            LINLocalization *localization = [[LINLocalization alloc] initWithKey:key
+            URBNLINLocalization *localization = [[URBNLINLocalization alloc] initWithKey:key
                                                                            value:value
                                                              languageDesignation:languageDesignation];
             [localizations addObject:localization];

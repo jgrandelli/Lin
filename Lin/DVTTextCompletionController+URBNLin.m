@@ -1,35 +1,35 @@
 //
-//  DVTTextCompletionController+Lin.m
+//  DVTTextCompletionController+URBNLin.m
 //  Lin
 //
 //  Created by Katsuma Tanaka on 2015/02/05.
 //  Copyright (c) 2015年 Katsuma Tanaka. All rights reserved.
 //
 
-#import "DVTTextCompletionController+Lin.h"
+#import "DVTTextCompletionController+URBNLin.h"
 #import "MethodSwizzle.h"
 #import "Xcode.h"
-#import "Lin.h"
+#import "URBNLin.h"
 
-@implementation DVTTextCompletionController (Lin)
+@implementation DVTTextCompletionController (URBNLin)
 
 + (void)load
 {
     MethodSwizzle(self,
                   @selector(acceptCurrentCompletion),
-                  @selector(lin_acceptCurrentCompletion));
+                  @selector(urbnLin_acceptCurrentCompletion));
 }
 
-- (BOOL)lin_acceptCurrentCompletion
+- (BOOL)urbnLin_acceptCurrentCompletion
 {
-    BOOL acceptCurrentCompletion = [self lin_acceptCurrentCompletion]; // Original method must be called at first
+    BOOL acceptCurrentCompletion = [self urbnLin_acceptCurrentCompletion]; // Original method must be called at first
     
     DVTSourceTextView *textView = (DVTSourceTextView *)self.textView;
     DVTTextStorage *textStorage = (DVTTextStorage *)textView.textStorage;
     NSString *string = textStorage.string;
     NSUInteger location = textView.selectedRange.location;
     
-    BOOL shouldAutoComplete = [[Lin sharedInstance] shouldAutoCompleteInTextView:textView location:location];
+    BOOL shouldAutoComplete = [[URBNLin sharedInstance] shouldAutoCompleteInTextView:textView location:location];
     
     if (shouldAutoComplete) {
         // Find the first completion placeholder

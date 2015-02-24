@@ -6,20 +6,21 @@
 //  Copyright (c) 2015年 Katsuma Tanaka. All rights reserved.
 //
 
-#import "LINTextCompletionItem.h"
+#import "URBNLINTextCompletionItem.h"
 #import <AppKit/AppKit.h>
+#import "URBNLin.h"
 
 // Models
-#import "LINLocalization.h"
+#import "URBNLINLocalization.h"
 
-@interface LINTextCompletionItem ()
+@interface URBNLINTextCompletionItem ()
 
 @property (nonatomic, copy, readwrite) NSArray *localizations;
 @property (nonatomic, copy) NSString *body;
 
 @end
 
-@implementation LINTextCompletionItem
+@implementation URBNLINTextCompletionItem
 
 - (instancetype)initWithLocalizations:(NSArray *)localizations
 {
@@ -32,7 +33,7 @@
         // Build description text
         NSMutableString *body = [NSMutableString string];
         
-        [self.localizations enumerateObjectsUsingBlock:^(LINLocalization *localization, NSUInteger index, BOOL *stop) {
+        [self.localizations enumerateObjectsUsingBlock:^(URBNLINLocalization *localization, NSUInteger index, BOOL *stop) {
             if (index > 0) [body appendString:@"\n"];
             [body appendFormat:@"(%@) %@", localization.languageDesignation, localization.value];
         }];
@@ -73,25 +74,21 @@
 
 - (NSString *)completionText
 {
-    if (self.sourceCodeLanguage == LINSourceCodeLanguageObjectiveC) {
-        return [NSString stringWithFormat:@"@\"%@\"", [self key]];
-    } else {
-        return [NSString stringWithFormat:@"\"%@\"", [self key]];
-    }
+    return [NSString stringWithFormat:[self replacementText], [self key]];
 }
 
 - (NSString *)displayType
 {
-    return (self.sourceCodeLanguage == LINSourceCodeLanguageObjectiveC) ? @"NSString *" : @"String";
+    return (self.sourceCodeLanguage == URBNLINSourceCodeLanguageObjectiveC) ? @"NSString *const" : @"String const";
 }
 
 - (NSString *)displayText
 {
-    if (self.sourceCodeLanguage == LINSourceCodeLanguageObjectiveC) {
-        return [NSString stringWithFormat:@"@\"%@\"", [self key]];
-    } else {
-        return [NSString stringWithFormat:@"\"%@\"", [self key]];
-    }
+    return [NSString stringWithFormat:[self replacementText], [self key]];
+}
+
+- (NSString *)replacementText {
+    return @"%@";
 }
 
 - (void)_fillInTheRest

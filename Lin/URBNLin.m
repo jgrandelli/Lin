@@ -6,28 +6,28 @@
 //  Copyright (c) 2015年 Katsuma Tanaka. All rights reserved.
 //
 
-#import "Lin.h"
+#import "URBNLin.h"
 
 // Xcode
 #import "Xcode.h"
 
 // Models
-#import "LINLocalizationParser.h"
-#import "LINLocalization.h"
-#import "LINTextCompletionItem.h"
+#import "URBNLINLocalizationParser.h"
+#import "URBNLINLocalization.h"
+#import "URBNLINTextCompletionItem.h"
 
 static id _sharedInstance = nil;
 
-@interface Lin ()
+@interface URBNLin ()
 
 @property (nonatomic, copy) NSArray *configurations;
-@property (nonatomic, strong) LINLocalizationParser *parser;
+@property (nonatomic, strong) URBNLINLocalizationParser *parser;
 @property (nonatomic, strong) NSMutableDictionary *completionItems;
 @property (nonatomic, strong) NSOperationQueue *indexingQueue;
 
 @end
 
-@implementation Lin
+@implementation URBNLin
 
 + (void)pluginDidLoad:(NSBundle *)bundle
 {
@@ -51,7 +51,7 @@ static id _sharedInstance = nil;
         NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Completions" ofType:@"plist"];
         self.configurations = [NSArray arrayWithContentsOfFile:filePath];
         
-        self.parser = [LINLocalizationParser new];
+        self.parser = [URBNLINLocalizationParser new];
         self.completionItems = [NSMutableDictionary dictionary];
         
         // Create indexing queue
@@ -92,7 +92,7 @@ static id _sharedInstance = nil;
             
             NSArray *parsedLocalizations = [self.parser localizationsFromContentsOfFile:filePath.pathString];
             
-            for (LINLocalization *localization in parsedLocalizations) {
+            for (URBNLINLocalization *localization in parsedLocalizations) {
                 NSMutableArray *localizations = localizationsByKey[localization.key];
                 
                 if (localizations) {
@@ -116,19 +116,19 @@ static id _sharedInstance = nil;
             NSMutableArray *localizations = localizationsByKey[key];
             
             // Sort localizations
-            [localizations sortUsingComparator:^NSComparisonResult(LINLocalization *lhs, LINLocalization *rhs) {
+            [localizations sortUsingComparator:^NSComparisonResult(URBNLINLocalization *lhs, URBNLINLocalization *rhs) {
                 return [[lhs languageDesignation] caseInsensitiveCompare:[rhs languageDesignation]];
             }];
             
             // Create completion item
-            LINTextCompletionItem *completionItem = [[LINTextCompletionItem alloc] initWithLocalizations:localizations];
+            URBNLINTextCompletionItem *completionItem = [[URBNLINTextCompletionItem alloc] initWithLocalizations:localizations];
             [completionItems addObject:completionItem];
         }
         
         if ([weakOperation isCancelled]) return;
         
         // Sort completions
-        [completionItems sortUsingComparator:^NSComparisonResult(LINTextCompletionItem *lhs, LINTextCompletionItem *rhs) {
+        [completionItems sortUsingComparator:^NSComparisonResult(URBNLINTextCompletionItem *lhs, URBNLINTextCompletionItem *rhs) {
             return [[lhs key] caseInsensitiveCompare:[rhs key]];
         }];
         

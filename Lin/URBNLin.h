@@ -12,7 +12,7 @@
 @class DVTCompletingTextView;
 @class IDEWorkspace;
 
-@interface Lin : NSObject
+@interface URBNLin : NSObject
 
 + (void)pluginDidLoad:(NSBundle *)bundle;
 + (instancetype)sharedInstance;

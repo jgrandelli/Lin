@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
-#import "LINLocalizationParser.h"
-#import "LINLocalization.h"
+#import "URBNLINLocalizationParser.h"
+#import "URBNLINLocalization.h"
 
 @interface LINLocalizationParserTests : XCTestCase
 
@@ -50,7 +50,7 @@
     testSetsPtr = testSets; // This avoids the compiler error 'cannot refer to declaration with an array type inside block'
     
     // Parse localizations
-    LINLocalizationParser *parser = [LINLocalizationParser new];
+    URBNLINLocalizationParser *parser = [URBNLINLocalizationParser new];
     NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Localizations" ofType:@"strings"];
     NSArray *localizations = [parser localizationsFromContentsOfFile:filePath];
     
@@ -58,7 +58,7 @@
     NSUInteger numberOfTestSets = sizeof(testSets) / sizeof(struct LNLocalizationTestSet);
     XCTAssertEqual(localizations.count, numberOfTestSets);
     
-    [localizations enumerateObjectsUsingBlock:^(LINLocalization *localization, NSUInteger index, BOOL *stop) {
+    [localizations enumerateObjectsUsingBlock:^(URBNLINLocalization *localization, NSUInteger index, BOOL *stop) {
         XCTAssertTrue([localization.key isEqualToString:testSetsPtr[index].key]);
         XCTAssertTrue([localization.value isEqualToString:testSetsPtr[index].value]);
     }];

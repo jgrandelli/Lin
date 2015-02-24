@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA023C111A82A2E700D4AE5F"
-               BuildableName = "LinTests.xctest"
-               BlueprintName = "LinTests"
-               ReferencedContainer = "container:Lin.xcodeproj">
+               BuildableName = "URBNLinTests.xctest"
+               BlueprintName = "URBNLinTests"
+               ReferencedContainer = "container:URBNLin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA023C111A82A2E700D4AE5F"
-               BuildableName = "LinTests.xctest"
-               BlueprintName = "LinTests"
-               ReferencedContainer = "container:Lin.xcodeproj">
+               BuildableName = "URBNLinTests.xctest"
+               BlueprintName = "URBNLinTests"
+               ReferencedContainer = "container:URBNLin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA023C111A82A2E700D4AE5F"
-            BuildableName = "LinTests.xctest"
-            BlueprintName = "LinTests"
-            ReferencedContainer = "container:Lin.xcodeproj">
+            BuildableName = "URBNLinTests.xctest"
+            BlueprintName = "URBNLinTests"
+            ReferencedContainer = "container:URBNLin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA023C111A82A2E700D4AE5F"
-            BuildableName = "LinTests.xctest"
-            BlueprintName = "LinTests"
-            ReferencedContainer = "container:Lin.xcodeproj">
+            BuildableName = "URBNLinTests.xctest"
+            BlueprintName = "URBNLinTests"
+            ReferencedContainer = "container:URBNLin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA023C111A82A2E700D4AE5F"
-            BuildableName = "LinTests.xctest"
-            BlueprintName = "LinTests"
-            ReferencedContainer = "container:Lin.xcodeproj">
+            BuildableName = "URBNLinTests.xctest"
+            BlueprintName = "URBNLinTests"
+            ReferencedContainer = "container:URBNLin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

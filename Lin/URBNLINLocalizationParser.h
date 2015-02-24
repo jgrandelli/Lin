@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LINLocalizationParser : NSObject
+@interface URBNLINLocalizationParser : NSObject
 
 - (NSArray *)localizationsFromContentsOfFile:(NSString *)filePath;
 

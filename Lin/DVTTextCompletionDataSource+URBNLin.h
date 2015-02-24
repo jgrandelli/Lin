@@ -1,5 +1,5 @@
 //
-//  DVTTextCompletionDataSource+Lin.h
+//  DVTTextCompletionDataSource+URBNLin.h
 //  Lin
 //
 //  Created by Katsuma Tanaka on 2015/02/08.
@@ -8,6 +8,6 @@
 
 #import "DVTTextCompletionDataSource.h"
 
-@interface DVTTextCompletionDataSource (Lin)
+@interface DVTTextCompletionDataSource (URBNLin)
 
 @end

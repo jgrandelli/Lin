@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 Katsuma Tanaka. All rights reserved.
 //
 
-#import "LINLocalization.h"
+#import "URBNLINLocalization.h"
 
-@interface LINLocalization ()
+@interface URBNLINLocalization ()
 
 @property (nonatomic, copy, readwrite) NSString *key;
 @property (nonatomic, copy, readwrite) NSString *value;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation LINLocalization
+@implementation URBNLINLocalization
 
 - (instancetype)initWithKey:(NSString *)key value:(NSString *)value languageDesignation:(NSString *)languageDesignation
 {

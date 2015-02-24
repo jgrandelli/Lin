@@ -6,16 +6,16 @@
 //  Copyright (c) 2015年 Katsuma Tanaka. All rights reserved.
 //
 
-#import "DVTSourceCodeLanguage+Lin.h"
+#import "DVTSourceCodeLanguage+URBNLin.h"
 
-@implementation DVTSourceCodeLanguage (Lin)
+@implementation DVTSourceCodeLanguage (URBNLin)
 
-- (BOOL)lin_isObjectiveC
+- (BOOL)urbnLin_isObjectiveC
 {
     return [self.languageName isEqualToString:@"Objective-C"];
 }
 
-- (BOOL)lin_isSwift
+- (BOOL)urbnLin_isSwift
 {
     return [self.languageName isEqualToString:@"Swift"];
 }

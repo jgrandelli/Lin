@@ -8,9 +8,9 @@
 
 #import "DVTSourceCodeLanguage.h"
 
-@interface DVTSourceCodeLanguage (Lin)
+@interface DVTSourceCodeLanguage (URBNLin)
 
-- (BOOL)lin_isObjectiveC;
-- (BOOL)lin_isSwift;
+- (BOOL)urbnLin_isObjectiveC;
+- (BOOL)urbnLin_isSwift;
 
 @end

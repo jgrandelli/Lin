@@ -1,5 +1,5 @@
 //
-//  IDEWorkspace+Lin.h
+//  IDEWorkspace+URBNLin.h
 //  Lin
 //
 //  Created by Katsuma Tanaka on 2015/02/05.
@@ -8,6 +8,6 @@
 
 #import "IDEWorkspace.h"
 
-@interface IDEWorkspace (Lin)
+@interface IDEWorkspace (URBNLin)
 
 @end
