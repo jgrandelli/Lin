@@ -101,14 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA023C131A82A2E700D4AE5F /* LinTests */ = {
+		AA023C131A82A2E700D4AE5F /* URBNLinTests */ = {
 			isa = PBXGroup;
 			children = (
 				AAB604941A8393B800C0E59B /* LINLocalizationParserTests.m */,
 				AAB604921A83933F00C0E59B /* Localizations.strings */,
 				AA023C141A82A2E700D4AE5F /* Supporting Files */,
 			);
-			path = LinTests;
+			path = URBNLinTests;
 			sourceTree = "<group>";
 		};
 		AA023C141A82A2E700D4AE5F /* Supporting Files */ = {
@@ -166,8 +166,8 @@
 		AA80F3321A82804C007687A3 = {
 			isa = PBXGroup;
 			children = (
-				AA80F33D1A82804C007687A3 /* Lin */,
-				AA023C131A82A2E700D4AE5F /* LinTests */,
+				AA80F33D1A82804C007687A3 /* URBNLin */,
+				AA023C131A82A2E700D4AE5F /* URBNLinTests */,
 				AA1313B51A8289EC0080D488 /* Frameworks */,
 				AA80F33C1A82804C007687A3 /* Products */,
 			);
@@ -182,7 +182,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA80F33D1A82804C007687A3 /* Lin */ = {
+		AA80F33D1A82804C007687A3 /* URBNLin */ = {
 			isa = PBXGroup;
 			children = (
 				AA1DB1151A828CC100856B10 /* Xcode */,
@@ -192,7 +192,7 @@
 				AA80F3461A82805B007687A3 /* URBNLin.m */,
 				AA80F33E1A82804C007687A3 /* Supporting Files */,
 			);
-			path = Lin;
+			path = URBNLin;
 			sourceTree = "<group>";
 		};
 		AA80F33E1A82804C007687A3 /* Supporting Files */ = {
@@ -488,7 +488,7 @@
 					"$(DEVELOPER_DIR)/../Frameworks",
 					"$(DEVELOPER_DIR)/../SharedFrameworks",
 				);
-				INFOPLIST_FILE = Lin/Info.plist;
+				INFOPLIST_FILE = URBNLin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = URBNLin;
 				SKIP_INSTALL = NO;
@@ -507,7 +507,7 @@
 					"$(DEVELOPER_DIR)/../Frameworks",
 					"$(DEVELOPER_DIR)/../SharedFrameworks",
 				);
-				INFOPLIST_FILE = Lin/Info.plist;
+				INFOPLIST_FILE = URBNLin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = URBNLin;
 				SKIP_INSTALL = NO;
