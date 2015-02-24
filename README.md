@@ -1,17 +1,12 @@
-# Lin
-Lin is a Xcode plugin that provides auto-completion for `NSLocalizedString`.  
-Both Objective-C and Swift are supported.
-
-[![Build Status](https://travis-ci.org/questbeat/Lin.svg?branch=master)](https://travis-ci.org/questbeat/Lin)
-
-![Screenshot](https://raw.github.com/questbeat/Lin/master/screenshot.gif)
-
+# URBNLin
+URBNLin is a Xcode plugin that provides auto-completion for `URBNStr`.  
+Both Objective-C and Swift are supported. It is based on the wonderful [Lin plugin](http://questbe.at/lin/). URBNLin was made to run along side Lin. So feel free to install both. Or just one or the other. This is essentially a fork that provides support for the very specific `URBNStr(KEY)` macro. Which maps to `NSLocalizedString(KEY, nil)`. The typical use of `URBNStr(KEY)` is `NSString` constant based usage as opposed to the `NSLocalizedString` usage of string literals. If you would like to use string literals your best bet is to roll with Lin. Enjoy!
 
 ## Installation
 Download the project and build it, and then relaunch Xcode.  
-Lin will be installed in `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins` automatically.
+URBNLin will be installed in `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins` automatically.
 
-If you want to uninstall Lin, remove Lin.xcplugin in the `Plug-ins` directory.
+If you want to uninstall URBNLin, remove URBNLin.xcplugin in the `Plug-ins` directory.
 
 
 ## Notes
@@ -19,19 +14,8 @@ If you want to uninstall Lin, remove Lin.xcplugin in the `Plug-ins` directory.
   * Xcode 6.1
   * Xcode 6.2 beta
 * Supported functions
-  * NSLocalizedString
-  * NSLocalizedStringFromTable
-  * NSLocalizedStringFromTableInBundle
-  * NSLocalizedStringWithDefaultValue
+  * URBNStr
 
 
 ## License
-Lin is released under the **MIT License**.
-
-> Copyright (c) 2014 Katsuma Tanaka
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
->
-> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
->
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+URBNLin is released under the **MIT License**.
